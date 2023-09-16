@@ -1,0 +1,6 @@
+lib
+old/**/*
+.vscode
+GlobalMedia.code-workspace
+.htaccess
+.htaccess.BKP20230912191912
