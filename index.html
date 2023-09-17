@@ -37,23 +37,14 @@
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
-    <link href="lib/animate-css/animate.min.css" rel="stylesheet" />
-    <link href="css/style.css" rel="stylesheet" />
-    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-    <!-- <script src="lib/bootstrap/js/bootstrap.min.js"></script> -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
       crossorigin="anonymous"
-    ></script>
-    <script src="lib/superfish/hoverIntent.js"></script>
-    <script src="lib/superfish/superfish.min.js"></script>
-    <script src="lib/morphext/morphext.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/stickyjs/sticky.js"></script>
-    <script src="lib/easing/easing.js"></script>
-    <script src="js/custom.js"></script>
-    <script src="contactform/contactform.js"></script>
+      referrerpolicy="no-referrer"
+    />
+    <link href="css/style.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -159,31 +150,79 @@
           <div class="row">
             <h3 class="section-title">Algunas de Nuestras Marcas</h3>
             <div class="section-title-divider"></div>
-            <div class="slider">
-              <div class="slide-track">
-                <div class="slide">
-                  <img src="./img/schneider.png" alt="schneider" />
+            <div
+              id="carouselExampleAutoplaying"
+              class="carousel slide"
+              data-bs-theme="dark"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="/img/schneider.png"
+                    class="d-block w-100"
+                    alt="schneider"
+                  />
                 </div>
-                <div class="slide">
-                  <img src="./img/sica.png" alt="sica" />
+                <div class="carousel-item">
+                  <img src="/img/sica.png" class="d-block w-100" alt="sica" />
                 </div>
-                <!-- Agrega más elementos según sea necesario -->
-                <div class="slide">
-                  <img src="./img/huferjo-logo.jpg" alt="huferjo" />
+                <div class="carousel-item">
+                  <img
+                    src="/img/huferjo-logo.jpg"
+                    class="d-block w-100"
+                    alt="huferjo"
+                  />
                 </div>
-                <div class="slide">
-                  <img src="./img/conextube.png" alt="conextube" />
+                <div class="carousel-item">
+                  <img
+                    src="/img/conextube.png"
+                    class="d-block w-100"
+                    alt="conextube"
+                  />
                 </div>
-                <div class="slide">
-                  <img src="./img/cambre.png" alt="cambre" />
+                <div class="carousel-item">
+                  <img
+                    src="/img/cambre.png"
+                    class="d-block w-100"
+                    alt="cambre"
+                  />
                 </div>
-                <div class="slide">
-                  <img src="./img/jeluz.png" alt="jeluz" />
+                <div class="carousel-item">
+                  <img src="/img/jeluz.png" class="d-block w-100" alt="jeluz" />
                 </div>
-                <div class="slide">
-                  <img src="./img/trefilcen.png" alt="trefilcen" />
+                <div class="carousel-item">
+                  <img
+                    src="/img/trefilcen.png"
+                    class="d-block w-100"
+                    alt="trefilcen"
+                  />
                 </div>
               </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Anterior</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Siguiente</span>
+              </button>
             </div>
           </div>
         </div>
@@ -343,6 +382,45 @@
 
     <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <!-- <script src="lib/bootstrap/js/bootstrap.min.js"></script> -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/superfish/1.7.10/js/superfish.js"
+      integrity="sha512-f5ylIU1Zc9FzNiSJ7TVg+0PFfOqbnicxpr8401KpF/sTo7PN5DoXxhJsN+8DtEy2HpDhQwXaElyZOtYg3qzGTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Morphext/2.4.4/morphext.min.js"
+      integrity="sha512-WPYLBBtLFRUKCbj+PI7iHTL9ORQvxc7uhsb7bIQMKoRPYbiybfoIKIxJ7ynVwrGpspeR2K7WFODUST/xDLg1wA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+      integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery.sticky/1.0.4/jquery.sticky.js"
+      integrity="sha512-p+GPBTyASypE++3Y4cKuBpCA8coQBL6xEDG01kmv4pPkgjKFaJlRglGpCM2OsuI14s4oE7LInjcL5eAUVZmKAQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"
+      integrity="sha512-xq+0+dRhI6SZOh+lDnMJEju2p2YPINflJLcYrRAsIMaXnJi6/V3lppCMCYsB2MLeF2E93r+fVo0MioY90pNzpw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="js/custom.js"></script>
+    <script src="contactform/contactform.js"></script>
     <script>
       $(function () {
         var $win = $(window);
