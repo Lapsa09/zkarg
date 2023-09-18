@@ -87,7 +87,7 @@ jQuery(document).ready(function ($) {
           {
             scrollTop: target.offset().top - top_space,
           },
-          1500,
+          100,
           "easeInOutExpo"
         );
 
