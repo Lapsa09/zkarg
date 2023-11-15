@@ -1237,11 +1237,11 @@ img2 {
 }
 
 #carouselExampleAutoplaying {
-  height: 200px;
+  height: 150px;
   margin-bottom: 50px;
 }
 
 #carouselExampleAutoplaying img {
-  height: 200px;
+  height: 150px;
   object-fit: contain;
 }
